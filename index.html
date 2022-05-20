@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Leftorium Landing Page</title>
-    <link rel="stylesheet" href="styles.css" type="text/css">
-  </head>
-  <body>
-	  <header id="header">
-      <img id="header-img">
-      <nav id="nav-bar">
-        <a href="" class="nav-link"></a>
-        <a href="" class="nav-link"></a>
-        <a href="" class="nav-link"></a>
-      </nav>
-    </header>
-    <main>
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/42NNT0TBCIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <label for="email">Sign up for updates!</label>
-        <input type="email" id="email" placeholder="fakeemail@yahoo.com">
-        <input type="submit" id="submit">
-      </form>
-    </main>
-    <footer>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Leftorium Landing Page</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <img alt="leftorium logo" id="header-img" src="https://i.imgur.com/83BzrMX.png" />
+    <nav id="nav-bar">
+      <a href="#our-story" class="nav-link">Our Story</a>
+      <a href="products" class="nav-link">Products</a>
+      <a href="contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="video-plus-intro-text">
+      <div id="intro-text-wrapper">
+        <h1 id="intro-text" class="intro">If you're a southpaw struggling to make it in a right-hander's world, you've come to the right place. The Leftorium has everything you need, from left-handed apple peelers to left-handed zithers.</h1>
+      </div>
+      <div id="vid-wrapper">
+        <iframe id="video" width="560" class="intro" height="315" src="https://www.youtube.com/embed/42NNT0TBCIE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="about-us">
+      <img src="https://i.imgur.com/5rhLY4L.jpg" id="ned-flanders" alt="Ned Flanders, the founder of The Leftorium" />
+      <article id="our-story">
+        <h2 id="article-title">Our Story</h2>
+        <p> In 1991, our esteemed founder Ned Flanders said toodle-loo to the pharmaceutical game and decided to open up a store called The Leftorium at his local mall in Springfield. As a lefty himself, Ned knew from personal experience that being left-handed is <i>not</i> all peaches and cream. Most products are designed with the typical right-handed consumer in mind, and this  makes daily tasks like writing in a notebook or driving a standard transmission needlessly frustrating for one out nine Americans. Inspired by his love for his community, which has a left-handed population three times the national average, Ned created a one-stop shop for southpaws, selling both practical and lifestyle goods for the left-handed man, woman, and child.</p> 
+<p>Starting his own business was a huge personal risk, and Ned struggled at the beginning. He nearly went into bankruptcy, and the store was almost closed forever until Ned's neighbor, Homer Simpson, rallied his community and told all the lefties he knew about his neighbor's business. With Homer's help, Ned was able to bounce back. The store became tremendously successful, not only due to the widespread community need for left-handed products, but also due to Ned's caring customer service and magnanimous spirit towards his fellow southpaws.</p>
+          <p>Today, Ned is still operating the original Leftorium at the Springfield Mall. His sons Rod and Todd have expanded the franchise by opening branches in nearby Shelbyville and Capital City, respectively. With this online store, Ned can bring speciality left-handed goods not only to customers in the U.S., but all over the world.</p>
+      </article>
+    </section>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="email">Sign up for updates!</label>
+      <input type="email" id="email" name="email" placeholder="fakeemail@yahoo.com">
+      <input type="submit" id="submit">
+    </form>
+  </main>
+  <footer>
+  </footer>
+</body>
 </html>
